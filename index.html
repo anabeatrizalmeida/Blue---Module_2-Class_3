@@ -48,7 +48,7 @@
         <h2>Cursos</h2>
 
         <section id="cards">
-          <div class="card">
+          <div class="card" data-anime="up">
             <img
               src="https://i0.wp.com/www.lightvesselautomatic.com/wp-content/uploads/2016/03/html5-logo.png?fit=500%2C500&ssl=1"
               alt="logo do HTML"
@@ -62,7 +62,7 @@
             </p>
           </div>
 
-          <div class="card">
+          <div class="card" data-anime="up">
             <img
               src="https://i0.wp.com/theicom.org/wp-content/uploads/2016/03/css-logo.png?ssl=1"
               alt="logo do CSS"
@@ -76,7 +76,7 @@
             </p>
           </div>
 
-          <div class="card">
+          <div class="card" data-anime="up">
             <img
               src="https://i0.wp.com/www.casamidia.com.br/wp-content/uploads/2016/03/js-logo.png?ssl=1"
               alt="logo do JS"
@@ -90,7 +90,7 @@
             </p>
           </div>
 
-          <div class="card">
+          <div class="card" data-anime="up">
             <img
               src="https://www.marcelferry.com.br/wp-content/uploads/2018/07/python-logo.png"
               alt="logo do python"
@@ -104,7 +104,7 @@
             </p>
           </div>
 
-          <div class="card">
+          <div class="card" data-anime="up">
             <img
               src="https://static.wixstatic.com/media/696f4e_063fff79cb6e42b29f8b43703aa71ec9~mv2.png/v1/fill/w_500,h_500,al_c,lg_1,q_85/2021-03-06_10-56-52.webp"
               alt="logo do SQL"
@@ -129,26 +129,61 @@
 
           <figcaption>Papeis de cada tecnologia.</figcaption>
         </figure>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti officiis quod officia id illo cumque libero deserunt consequatur illum, impedit expedita tempore similique recusandae soluta doloremque labore, quia exercitationem. Voluptates sapiente suscipit cum, quis tenetur aliquid commodi in officia! Nulla vero nesciunt doloribus, laborum perferendis architecto, consequuntur eos voluptatem neque, atque doloremque alias sunt nobis! Natus iusto commodi facilis expedita sequi placeat? At enim aspernatur laudantium atque officiis facere animi asperiores nulla mollitia, nostrum, suscipit itaque sunt nihil amet neque. Provident voluptas ea beatae nemo, aliquid sapiente magnam, veniam quod dolores porro eos velit enim autem ullam cumque culpa! A praesentium neque consectetur possimus quia obcaecati amet nemo, aperiam, hic sunt eaque facere temporibus. Quasi vero eligendi sint vitae recusandae, maxime fugit nostrum assumenda aspernatur sit! Possimus hic a accusantium facilis laboriosam repellendus asperiores quia nam ipsa soluta ea perferendis blanditiis maiores, incidunt dolorum rerum ratione maxime dolore eveniet delectus!</p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+          officiis quod officia id illo cumque libero deserunt consequatur
+          illum, impedit expedita tempore similique recusandae soluta doloremque
+          labore, quia exercitationem. Voluptates sapiente suscipit cum, quis
+          tenetur aliquid commodi in officia! Nulla vero nesciunt doloribus,
+          laborum perferendis architecto, consequuntur eos voluptatem neque,
+          atque doloremque alias sunt nobis! Natus iusto commodi facilis
+          expedita sequi placeat? At enim aspernatur laudantium atque officiis
+          facere animi asperiores nulla mollitia, nostrum, suscipit itaque sunt
+          nihil amet neque. Provident voluptas ea beatae nemo, aliquid sapiente
+          magnam, veniam quod dolores porro eos velit enim autem ullam cumque
+          culpa! A praesentium neque consectetur possimus quia obcaecati amet
+          nemo, aperiam, hic sunt eaque facere temporibus. Quasi vero eligendi
+          sint vitae recusandae, maxime fugit nostrum assumenda aspernatur sit!
+          Possimus hic a accusantium facilis laboriosam repellendus asperiores
+          quia nam ipsa soluta ea perferendis blanditiis maiores, incidunt
+          dolorum rerum ratione maxime dolore eveniet delectus!
+        </p>
       </section>
 
       <section id="inscrevase">
-
         <form>
-            <h2>Formulário de inscrição</h2>
-            
-            <label for="nome">Nome</label>
-            <input type="text" id="nome" nome="nome" placeholder="Digite seu nome">
+          <h2>Formulário de inscrição</h2>
 
-            <label for="email">E-mail</label>
-            <input type="email" id="email" nome="email"c placeholder="Digite seu e-mail">
+          <label for="nome" id="labelNome">Nome</label>
+          <input
+            type="text"
+            id="nome"
+            nome="nome"
+            placeholder="Digite seu nome"
+          />
 
-            <button type="submit">Enviar</button>
+          <label for="email" id="labelEmail">E-mail</label>
+          <input
+            type="email"
+            id="email"
+            nome="email"
+            c
+            placeholder="Digite seu e-mail"
+          />
 
+          <button
+            type="submit"
+            id="#buttonEnviar"
+            class="buttonDisable"
+          >
+            Enviar
+          </button>
         </form>
 
-        <img src="./assets/img/Forms-rafiki.png" alt="ilustração de formulário">
-
+        <img
+          src="./assets/img/Forms-rafiki.png"
+          alt="ilustração de formulário"
+        />
       </section>
     </main>
 
@@ -160,5 +195,7 @@
         - Todos os direitos reservados. &copy;
       </p>
     </footer>
+
+    <script src="./assets/js/script.js"></script>
   </body>
 </html>
